@@ -1,0 +1,51 @@
+Here are the full analysis of the clustering method
+
+# Selected Features (CustomerAge and AccountBalance)
+## **1. Cluster 1** -> (Older Customers with Low Account Balance)
+* Average Age: 0.71
+* Minimum Age: 0.39
+* Maximum Age: 1
+* Average Account Balance: 0.29
+* Minimum Balance: 0
+* Maximum Balance: 0.67
+
+Analysis:
+This cluster represents older customers with relatively low account balances. These customers are likely individuals who are approaching retirement or are already retired. Their financial behavior suggests a preference for security and accessibility rather than high-risk financial growth.
+
+Therefore, suitable banking products for this group include basic savings accounts, pension-related services, and low-risk financial products that help them manage their finances comfortably.
+
+2. Cluster 2: (Young Customers with Low Account Balance)
+Average Age: 0.13
+
+Minimum Age: 0
+
+Maximum Age: 0.47
+
+Average Account Balance: 0.11
+
+Minimum Balance: 0
+
+Maximum Balance: 0.47
+
+Analysis:
+This cluster represents younger customers with relatively low account balances. These individuals are likely students or early-career professionals whose financial stability is still developing.
+
+Banking products suitable for this group include low-cost savings accounts, accounts with no administrative fees, digital banking services, and promotional programs such as cashback, discounts, or integration with digital wallets.
+
+3. Cluster 3: (Middle-Aged Customers with Medium to High Account Balance)
+Average Age: 0.42
+
+Minimum Age: 0
+
+Maximum Age: 0.84
+
+Average Account Balance: 0.65
+
+Minimum Balance: 0.35
+
+Maximum Balance: 1
+
+Analysis:
+This cluster represents middle-aged customers with medium to high account balances. These individuals are typically in their productive working years and have relatively stable financial conditions.
+
+Appropriate banking products for this group include time deposits, investment products, savings plans, and financial services that support long-term financial growth and wealth management.
