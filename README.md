@@ -47,7 +47,7 @@ To prepare for classification:
 * Merge processed datasets
 
 ### **5. Cluster Interpretation**
-* Perform descriptive analysis on both normal and PCA-based clusters
+* Perform descriptive analysis on both normalized and inversed data clusters
 * Extract insights to understand the characteristics and needs of each customer segment
 
 ### **6. Data Preparation for Classification Model**
@@ -77,7 +77,7 @@ Models are evaluated using:
 ## **📊 Results**
 ### **Clustering**
 * Clustering with K-means algorithm can distinct transaction behavior.
-* Detailed insights for each cluster are provided in the Final Analysis file
+* Detailed insights for each cluster are provided in the `Final Clustering Analysis` file
 
 ### **Classification**
   * KNN (after tuning):
