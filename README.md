@@ -81,6 +81,7 @@ Models are evaluated using:
 
 ### **Classification**
   * KNN (after tuning):
+    
     <img width="444" height="393" alt="image" src="https://github.com/user-attachments/assets/5062f32e-0f7b-4240-aef4-86e2d47ee08b" />
     `Accuracy : 0.7893
     Precision: 0.7882
@@ -88,6 +89,7 @@ Models are evaluated using:
     F1-Score : 0.7886`
 
   * Decision Tree:
+    
     <img width="444" height="393" alt="image" src="https://github.com/user-attachments/assets/02feef42-1be3-4507-a4f7-5730f628dad5" />
     `Accuracy : 0.982
     Precision: 0.982
@@ -95,12 +97,14 @@ Models are evaluated using:
     F1-Score : 0.982`
 
   * Random Forest:
+    
     <img width="444" height="393" alt="image" src="https://github.com/user-attachments/assets/d080971e-2266-4d07-9cc8-8a1f2efbdaa8" />
   `Accuracy : 0.976
   Precision: 0.976
   Recall   : 0.976
   F1-Score : 0.976`
   * SVM:
+    
     <img width="450" height="393" alt="image" src="https://github.com/user-attachments/assets/ab3e7d42-3b66-4227-b56f-c7529c23e2fd" />
 `Accuracy : 0.746
 Precision: 0.745
