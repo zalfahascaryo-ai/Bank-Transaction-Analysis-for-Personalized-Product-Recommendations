@@ -1,6 +1,8 @@
 # **📊 Final Clustering Analysis**
 This section presents the final interpretation of customer segments obtained from clustering analysis. The analysis is performed using both normalized data and inversed data to gain deeper insights into customer behavior.
 
+<img width="843" height="468" alt="image" src="https://github.com/user-attachments/assets/965b69c3-0027-4961-8d00-f64d6780e59d" />
+
 ## **1️⃣ Normalized Data**
 
 ### **1. Cluster 1:** Older Customers with Low Account Balance
