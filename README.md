@@ -17,26 +17,26 @@ This dual approach allows both exploratory analysis and predictive modelling wit
 ## **⚙️ System Pipeline**
 ### **1. Exploratory Data Analysis (EDA)**
 EDA is performed to understand the dataset and guide preprocessing decisions:
-* Correlation Heatmap: identifies relationships between features
-* Distribution Analysis: examines categorical and numerical feature distributions
-* Outlier Detection: uses boxplots to identify extreme values
-* Feature Relationship Analysis: uses violin plots for deeper insights
+* **Correlation Heatmap:** identifies relationships between features
+* **Distribution Analysis:** examines categorical and numerical feature distributions
+* **Outlier Detection:** uses boxplots to identify extreme values
+* **Feature Relationship Analysis:** uses violin plots for deeper insights
 
 ### **2. Data Preprocessing***
 * Handle missing values:
-    * Mode for categorical features
-    * Median for numerical features
-* Normalize numerical features using Min-Max Scalling
+    * **Mode** for categorical features
+    * **Median** for numerical features
+* Normalize numerical features using **Min-Max Scalling**
 * Drop irrelevant features and duplicate rows
-* Encode categorical variables using Label Encoding
-* Handle outliers using log transformation
+* Encode categorical variables using **Label Encoding**
+* Handle outliers using **log transformation**
 * Apply binning where necessary
 
-### **3. CLustering Model Development***
-* Select key features: CustomerAge and AccountBalance
-* Determine optimal number of clusters using the Elbow Method
-* Apply K-Means clustering
-* Evaluate clustering using silhouette score and cluster centroid
+### **3. Clustering Model Development***
+* Select key features: `CustomerAge` and `AccountBalance`
+* Determine optimal number of clusters using the **Elbow Method**
+* Apply **K-Means clustering**
+* Evaluate clustering using **silhouette score** and **cluster centroid**
 
   > PCA-based clustering was also tested and resulted in slightly higher silhouette scores.
 
@@ -55,7 +55,7 @@ To prepare for classification:
 * Encode categorical variables
 * Split dataset into training and testing sets (80:20 ratio)
 
-### **7. Classification Model Development***
+### **7. Classification Model Development**
 Multiple models are trained and compared:
 * Decision Tree
 * Random Forest
@@ -76,7 +76,7 @@ Models are evaluated using:
   
 ## **📊 Results**
 ### **Clustering**
-* Clustering with K-means algorithm can distinct transcation behavior.
+* Clustering with K-means algorithm can distinct transaction behavior.
 * Detailed insights for each cluster are provided in the Final Analysis file
 
 ### **Classification**
@@ -84,38 +84,38 @@ Models are evaluated using:
     
     <img width="444" height="393" alt="image" src="https://github.com/user-attachments/assets/5062f32e-0f7b-4240-aef4-86e2d47ee08b" />
 
-    `Accuracy : 0.7893
-    Precision: 0.7882
-    Recall   : 0.7893
+    `Accuracy: 0.7893 |
+    Precision: 0.7882 |
+    Recall: 0.7893 |
     F1-Score : 0.7886`
 
   * Decision Tree:
     
     <img width="444" height="393" alt="image" src="https://github.com/user-attachments/assets/02feef42-1be3-4507-a4f7-5730f628dad5" />
 
-    `Accuracy : 0.982
-    Precision: 0.982
-    Recall   : 0.982
-    F1-Score : 0.982`
+    `Accuracy: 0.982 |
+    Precision: 0.982 |
+    Recall: 0.982 |
+    F1-Score: 0.982`
 
   * Random Forest:
     
     <img width="444" height="393" alt="image" src="https://github.com/user-attachments/assets/d080971e-2266-4d07-9cc8-8a1f2efbdaa8" />
   
-  `Accuracy : 0.976
-  Precision: 0.976
-  Recall   : 0.976
+  `Accuracy: 0.976 |
+  Precision: 0.976 |
+  Recall: 0.976 |
   F1-Score : 0.976`
   * SVM:
     
     <img width="450" height="393" alt="image" src="https://github.com/user-attachments/assets/ab3e7d42-3b66-4227-b56f-c7529c23e2fd" />
 
-`Accuracy : 0.746
-Precision: 0.745
-Recall   : 0.746
+`Accuracy: 0.746 |
+Precision: 0.745 |
+Recall: 0.746 |
 F1-Score : 0.745`
 
 ## **🚀 Future Work**
-* Advanced Models: Use more powerful models such as CGBoost or deep learning approach
-* Anomaly Detection: Integrate anomaly detection methods to enhance fraud detection capabilities
-* Deployment and feature engineering: Develop a dashboard or API for real-world applications, and incorporate time-series behavior and user profiling for deeper insights
+* **Advanced Models:** Use more powerful models such as CGBoost or deep learning approach
+* **Anomaly Detection:** Integrate anomaly detection methods to enhance fraud detection capabilities
+* **Deployment and feature engineering:** Develop a dashboard or API for real-world applications, and incorporate time-series behavior and user profiling for deeper insights
